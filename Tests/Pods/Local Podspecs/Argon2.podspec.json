@@ -1,0 +1,28 @@
+{
+  "name": "Argon2",
+  "version": "1.0.0",
+  "license": {
+    "type": "Apache License Version 2"
+  },
+  "homepage": "https://github.com/CodingMarkus/Argon2.pod",
+  "authors": {
+    "Markus Hanauska": "CodingMarkus@hanauska.name"
+  },
+  "summary": "The Argon2 key derivator as a CocaPod to be used in Obj-C or Swift.",
+  "source": {
+    "git": "https://github.com/CodingMarkus/Argon2.pod",
+    "tag": "1.0.0"
+  },
+  "frameworks": "Foundation",
+  "source_files": [
+    "Pod/Source/*.{h,m}",
+    "Pod/Include/*.h"
+  ],
+  "public_header_files": "Pod/Include/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

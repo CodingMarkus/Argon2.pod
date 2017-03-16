@@ -1,0 +1,16 @@
+PODS:
+  - Argon2 (1.0.0)
+
+DEPENDENCIES:
+  - Argon2 (from `../`)
+
+EXTERNAL SOURCES:
+  Argon2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Argon2: 9296477056b426ba789e9587ead305b74399f77d
+
+PODFILE CHECKSUM: d1992cb6b2dfb356042bf8ece08874be455cb4e7
+
+COCOAPODS: 1.2.0
