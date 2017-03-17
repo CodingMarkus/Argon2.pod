@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
 	spec.authors  = { 'Markus Hanauska' => 'CodingMarkus@hanauska.name' }
 	spec.summary  = 'The Argon2 key derivator as a CocaPod to be used in Obj-C or Swift.'
-	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod',
+	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod.git',
 	                  :tag => spec.version }
 
 	submodulePath = 'Pod/Submodules'
