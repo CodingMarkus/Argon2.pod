@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
  	spec.name     = 'Argon2'
- 	spec.version  = '1.0.0'
+ 	spec.version  = '1.0.1'
  	spec.license  = { :type => 'Apache License Version 2' }
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
 	spec.authors  = { 'Markus Hanauska' => 'CodingMarkus@hanauska.name' }
