@@ -4,5 +4,4 @@ target 'Argon2 Tests' do
  	pod "Argon2", :path => "../"
 end
 
-use_frameworks!
 ENV["COCOAPODS_DISABLE_STATS"] = "true"

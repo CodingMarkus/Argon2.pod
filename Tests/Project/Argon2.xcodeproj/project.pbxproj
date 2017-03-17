@@ -7,27 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60A9D5E225C686CAB649C04C /* Pods_Argon2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3269DB69A645E61C7E206F4D /* Pods_Argon2_Tests.framework */; };
+		B5D5093826508B368CD9BEE6 /* libPods-Argon2 Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */; };
+		D4153DA71E7BE97400B4DF8B /* TestArgon2.m in Sources */ = {isa = PBXBuildFile; fileRef = D4153DA61E7BE97400B4DF8B /* TestArgon2.m */; };
 		D48EC4561E7ADF430034507C /* Argon2 Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EC44C1E7ADF430034507C /* Argon2 Library.framework */; };
-		D48EC47D1E7AE48D0034507C /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4691E7AE48D0034507C /* argon2.c */; };
-		D48EC47E1E7AE48D0034507C /* bench.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC46A1E7AE48D0034507C /* bench.c */; };
-		D48EC47F1E7AE48D0034507C /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC46C1E7AE48D0034507C /* blake2-impl.h */; };
-		D48EC4801E7AE48D0034507C /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC46D1E7AE48D0034507C /* blake2.h */; };
-		D48EC4811E7AE48D0034507C /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC46E1E7AE48D0034507C /* blake2b.c */; };
-		D48EC4821E7AE48D0034507C /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC46F1E7AE48D0034507C /* blamka-round-opt.h */; };
-		D48EC4831E7AE48D0034507C /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC4701E7AE48D0034507C /* blamka-round-ref.h */; };
-		D48EC4841E7AE48D0034507C /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4711E7AE48D0034507C /* core.c */; };
-		D48EC4851E7AE48D0034507C /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC4721E7AE48D0034507C /* core.h */; };
-		D48EC4861E7AE48D0034507C /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4731E7AE48D0034507C /* encoding.c */; };
-		D48EC4871E7AE48D0034507C /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC4741E7AE48D0034507C /* encoding.h */; };
-		D48EC4881E7AE48D0034507C /* genkat.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4751E7AE48D0034507C /* genkat.c */; };
-		D48EC4891E7AE48D0034507C /* genkat.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC4761E7AE48D0034507C /* genkat.h */; };
-		D48EC48A1E7AE48D0034507C /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4771E7AE48D0034507C /* opt.c */; };
-		D48EC48B1E7AE48D0034507C /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4781E7AE48D0034507C /* ref.c */; };
-		D48EC48C1E7AE48D0034507C /* run.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC4791E7AE48D0034507C /* run.c */; };
-		D48EC48D1E7AE48D0034507C /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC47A1E7AE48D0034507C /* test.c */; };
-		D48EC48E1E7AE48D0034507C /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = D48EC47B1E7AE48D0034507C /* thread.c */; };
-		D48EC48F1E7AE48D0034507C /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EC47C1E7AE48D0034507C /* thread.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,32 +24,13 @@
 
 /* Begin PBXFileReference section */
 		311D1466720E0AC9ABEDC22B /* Pods-Argon2 Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Argon2 Tests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Argon2 Tests/Pods-Argon2 Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3269DB69A645E61C7E206F4D /* Pods_Argon2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Argon2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Argon2 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AF4B1BDA476F597861AC5A /* Pods-Argon2 Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Argon2 Tests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Argon2 Tests/Pods-Argon2 Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4153DA61E7BE97400B4DF8B /* TestArgon2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestArgon2.m; path = "Argon2 Tests/TestArgon2.m"; sourceTree = SOURCE_ROOT; };
 		D48EC44C1E7ADF430034507C /* Argon2 Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Argon2 Library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EC4501E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48EC4551E7ADF430034507C /* Argon2 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argon2 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EC45C1E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Argon2 Tests/Info.plist"; sourceTree = "<group>"; };
-		D48EC4671E7AE46D0034507C /* argon2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
-		D48EC4691E7AE48D0034507C /* argon2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = argon2.c; sourceTree = "<group>"; };
-		D48EC46A1E7AE48D0034507C /* bench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench.c; sourceTree = "<group>"; };
-		D48EC46C1E7AE48D0034507C /* blake2-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
-		D48EC46D1E7AE48D0034507C /* blake2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
-		D48EC46E1E7AE48D0034507C /* blake2b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake2b.c; sourceTree = "<group>"; };
-		D48EC46F1E7AE48D0034507C /* blamka-round-opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
-		D48EC4701E7AE48D0034507C /* blamka-round-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
-		D48EC4711E7AE48D0034507C /* core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = core.c; sourceTree = "<group>"; };
-		D48EC4721E7AE48D0034507C /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
-		D48EC4731E7AE48D0034507C /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
-		D48EC4741E7AE48D0034507C /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
-		D48EC4751E7AE48D0034507C /* genkat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genkat.c; sourceTree = "<group>"; };
-		D48EC4761E7AE48D0034507C /* genkat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genkat.h; sourceTree = "<group>"; };
-		D48EC4771E7AE48D0034507C /* opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opt.c; sourceTree = "<group>"; };
-		D48EC4781E7AE48D0034507C /* ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ref.c; sourceTree = "<group>"; };
-		D48EC4791E7AE48D0034507C /* run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run.c; sourceTree = "<group>"; };
-		D48EC47A1E7AE48D0034507C /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
-		D48EC47B1E7AE48D0034507C /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
-		D48EC47C1E7AE48D0034507C /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48EC4561E7ADF430034507C /* Argon2 Library.framework in Frameworks */,
-				60A9D5E225C686CAB649C04C /* Pods_Argon2_Tests.framework in Frameworks */,
+				B5D5093826508B368CD9BEE6 /* libPods-Argon2 Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +65,7 @@
 		A171C2E667E24A28B2FC9D06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3269DB69A645E61C7E206F4D /* Pods_Argon2_Tests.framework */,
+				5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,38 +73,12 @@
 		D48EC43C1E7ADDAB0034507C = {
 			isa = PBXGroup;
 			children = (
-				D48EC4431E7ADE740034507C /* Pod */,
 				D48EC44E1E7ADF430034507C /* Argon2 Library */,
 				D48EC4591E7ADF430034507C /* Argon2 Tests */,
-				D48EC44D1E7ADF430034507C /* Products */,
 				34A745D1006D059EA57CC9D9 /* Pods */,
 				A171C2E667E24A28B2FC9D06 /* Frameworks */,
+				D48EC44D1E7ADF430034507C /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D48EC4431E7ADE740034507C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC4441E7ADE740034507C /* Include */,
-				D48EC4451E7ADE740034507C /* Source */,
-				D48EC4641E7AE43D0034507C /* Submodules */,
-			);
-			name = Pod;
-			path = ../../Pod;
-			sourceTree = "<group>";
-		};
-		D48EC4441E7ADE740034507C /* Include */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Include;
-			sourceTree = "<group>";
-		};
-		D48EC4451E7ADE740034507C /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		D48EC44D1E7ADF430034507C /* Products */ = {
@@ -165,70 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				D48EC45C1E7ADF430034507C /* Info.plist */,
+				D4153DA61E7BE97400B4DF8B /* TestArgon2.m */,
 			);
 			name = "Argon2 Tests";
 			path = "Argon2 LibraryTests";
-			sourceTree = "<group>";
-		};
-		D48EC4641E7AE43D0034507C /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC4651E7AE4560034507C /* Argon2 */,
-			);
-			name = Submodules;
-			sourceTree = "<group>";
-		};
-		D48EC4651E7AE4560034507C /* Argon2 */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC4681E7AE48D0034507C /* src */,
-				D48EC4661E7AE46D0034507C /* include */,
-			);
-			name = Argon2;
-			sourceTree = "<group>";
-		};
-		D48EC4661E7AE46D0034507C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC4671E7AE46D0034507C /* argon2.h */,
-			);
-			name = include;
-			path = "Submodules/phc-winner-argon2.git/include";
-			sourceTree = "<group>";
-		};
-		D48EC4681E7AE48D0034507C /* src */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC46B1E7AE48D0034507C /* blake2 */,
-				D48EC4691E7AE48D0034507C /* argon2.c */,
-				D48EC46A1E7AE48D0034507C /* bench.c */,
-				D48EC4711E7AE48D0034507C /* core.c */,
-				D48EC4721E7AE48D0034507C /* core.h */,
-				D48EC4731E7AE48D0034507C /* encoding.c */,
-				D48EC4741E7AE48D0034507C /* encoding.h */,
-				D48EC4751E7AE48D0034507C /* genkat.c */,
-				D48EC4761E7AE48D0034507C /* genkat.h */,
-				D48EC4771E7AE48D0034507C /* opt.c */,
-				D48EC4781E7AE48D0034507C /* ref.c */,
-				D48EC4791E7AE48D0034507C /* run.c */,
-				D48EC47A1E7AE48D0034507C /* test.c */,
-				D48EC47B1E7AE48D0034507C /* thread.c */,
-				D48EC47C1E7AE48D0034507C /* thread.h */,
-			);
-			name = src;
-			path = "Submodules/phc-winner-argon2.git/src";
-			sourceTree = "<group>";
-		};
-		D48EC46B1E7AE48D0034507C /* blake2 */ = {
-			isa = PBXGroup;
-			children = (
-				D48EC46C1E7AE48D0034507C /* blake2-impl.h */,
-				D48EC46D1E7AE48D0034507C /* blake2.h */,
-				D48EC46E1E7AE48D0034507C /* blake2b.c */,
-				D48EC46F1E7AE48D0034507C /* blamka-round-opt.h */,
-				D48EC4701E7AE48D0034507C /* blamka-round-ref.h */,
-			);
-			path = blake2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,14 +115,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48EC4851E7AE48D0034507C /* core.h in Headers */,
-				D48EC4871E7AE48D0034507C /* encoding.h in Headers */,
-				D48EC47F1E7AE48D0034507C /* blake2-impl.h in Headers */,
-				D48EC4891E7AE48D0034507C /* genkat.h in Headers */,
-				D48EC4801E7AE48D0034507C /* blake2.h in Headers */,
-				D48EC4821E7AE48D0034507C /* blamka-round-opt.h in Headers */,
-				D48EC48F1E7AE48D0034507C /* thread.h in Headers */,
-				D48EC4831E7AE48D0034507C /* blamka-round-ref.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,17 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48EC4841E7AE48D0034507C /* core.c in Sources */,
-				D48EC4881E7AE48D0034507C /* genkat.c in Sources */,
-				D48EC48A1E7AE48D0034507C /* opt.c in Sources */,
-				D48EC48B1E7AE48D0034507C /* ref.c in Sources */,
-				D48EC4861E7AE48D0034507C /* encoding.c in Sources */,
-				D48EC48D1E7AE48D0034507C /* test.c in Sources */,
-				D48EC47E1E7AE48D0034507C /* bench.c in Sources */,
-				D48EC48C1E7AE48D0034507C /* run.c in Sources */,
-				D48EC47D1E7AE48D0034507C /* argon2.c in Sources */,
-				D48EC4811E7AE48D0034507C /* blake2b.c in Sources */,
-				D48EC48E1E7AE48D0034507C /* thread.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4153DA71E7BE97400B4DF8B /* TestArgon2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +291,48 @@
 		D48EC4411E7ADDAB0034507C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		D48EC4421E7ADDAB0034507C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};

@@ -16,7 +16,14 @@
   "frameworks": "Foundation",
   "source_files": [
     "Pod/Source/*.{h,m}",
-    "Pod/Include/*.h"
+    "Pod/Include/*.h",
+    "Pod/Submodules/phc-winner-argon2.git/include/argon2.h",
+    "Pod/Submodules/phc-winner-argon2.git/src/argon2.c",
+    "Pod/Submodules/phc-winner-argon2.git/src/opt.c",
+    "Pod/Submodules/phc-winner-argon2.git/src/core.{c,h}",
+    "Pod/Submodules/phc-winner-argon2.git/src/thread.{c,h}",
+    "Pod/Submodules/phc-winner-argon2.git/src/encoding.{c,h}",
+    "Pod/Submodules/phc-winner-argon2.git/src/blake2/*.{c,h}"
   ],
   "public_header_files": "Pod/Include/*.h",
   "platforms": {
