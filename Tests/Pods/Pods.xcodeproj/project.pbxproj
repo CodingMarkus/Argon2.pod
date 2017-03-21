@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BD2424F624E62A4C5C28E784A90F47 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = EA412D4C106C9D7311AF132B76534700 /* blake2b.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
 		00F91BABEA8553237000E4FAAAE0A271 /* Pods-Argon2 Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2630366186D8C39805C4D44813A6879 /* Pods-Argon2 Tests-dummy.m */; };
 		054ED9C90C8F3E3B5A967102553DC20C /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A191057786018DA3FF223C1AE115C3 /* blamka-round-ref.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0629BCAC6D0136338EB5BF493D59E6F4 /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = B12B26CA08E96E037FD93224B3203287 /* opt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		06A3F23E9B95055918F62C3510DF8D2D /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B9774C615DA5C0F4D0D73325D4341E /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		102CDDC08783F15E3B38489210DC982B /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B617942458E6BC5E683EFA92AD250745 /* encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		145C6EED4FCF44C6540C74C07AFBD5E8 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = EA412D4C106C9D7311AF132B76534700 /* blake2b.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4251342A98AD2DA27CDA07ED211B9F22 /* Argon2KeyDerivator.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFC2BB1BF029C223B5B36EDE593B1B /* Argon2KeyDerivator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32F53C5442006E3D80DFCA3EB35FE83D /* Argon2KeyDerivator.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFC2BB1BF029C223B5B36EDE593B1B /* Argon2KeyDerivator.m */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		36211CED70E501E446352B52485657B2 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 3334AC5074B3809F8193DCAD43547922 /* thread.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
 		43E3C50D050EAA74F04A39BA8FF19326 /* Argon2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B496E3C7926CA50EFCE2C41284741B /* Argon2-dummy.m */; };
-		567D1987CBE11C401BA9F9BCB98A5AB8 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A45FCC76B13AEB2340E750019BA13FE /* core.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		61C826DB7E50BC881740E5D5E7516D7B /* Argon2KeyDerivator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1924E762D0743432FC6599E11D271850 /* Argon2KeyDerivator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62CEAF4394FE9CD27E87A755F1214FC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */; };
-		87482C7022566EFD8D4580D17541493F /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = B960DBA2510C10B6068D4F634129FF5F /* argon2.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		909A732A2390B4F5C7874C81FAAF88E7 /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AA4E838B67687DBB914E576D6BCA0F /* blamka-round-opt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9344A924D6A2A19886FDA849F10112D5 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 3334AC5074B3809F8193DCAD43547922 /* thread.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9E15F4C9F28630D50A40BCD7AE89FAF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
+		A5DA64B95209678FE78C1142C38D5D5A /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A45FCC76B13AEB2340E750019BA13FE /* core.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		ACDA742934EE3C911C2381053D7E5C03 /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = B12B26CA08E96E037FD93224B3203287 /* opt.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		AD3696F7EF238D2252CF8A825AA932DC /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB5AF3B3DB0B5EF29DFCD6B8372FC56 /* encoding.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
 		AF100043A6DAC9DFECA2B0C3329AAC26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
 		B41BC5CC85671151706FFF6A4F206B32 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6089F29E6A23F4CA1EFBA038941216 /* blake2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5FD4C9AA8B032CC18B46F630CCF083A /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB5AF3B3DB0B5EF29DFCD6B8372FC56 /* encoding.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BC0070D65667BDDE07D366E21DFDCF49 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FFAF178A5BC02AE8374EBD4CB04DCF /* argon2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8C1600C7D20EA7CF2249D086D7C1343 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = B960DBA2510C10B6068D4F634129FF5F /* argon2.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
 		F74901BBF4C3158B0EBC3853341B4E35 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = F962A78C188A0F07629EF7186C325059 /* core.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F9B4C16F8B2B1E6D8769CA8E156B0B84 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 641B4A5659AA393A690DB32EE381D0FD /* blake2-impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
@@ -368,13 +368,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E3C50D050EAA74F04A39BA8FF19326 /* Argon2-dummy.m in Sources */,
-				87482C7022566EFD8D4580D17541493F /* argon2.c in Sources */,
-				4251342A98AD2DA27CDA07ED211B9F22 /* Argon2KeyDerivator.m in Sources */,
-				145C6EED4FCF44C6540C74C07AFBD5E8 /* blake2b.c in Sources */,
-				567D1987CBE11C401BA9F9BCB98A5AB8 /* core.c in Sources */,
-				B5FD4C9AA8B032CC18B46F630CCF083A /* encoding.c in Sources */,
-				0629BCAC6D0136338EB5BF493D59E6F4 /* opt.c in Sources */,
-				9344A924D6A2A19886FDA849F10112D5 /* thread.c in Sources */,
+				E8C1600C7D20EA7CF2249D086D7C1343 /* argon2.c in Sources */,
+				32F53C5442006E3D80DFCA3EB35FE83D /* Argon2KeyDerivator.m in Sources */,
+				00BD2424F624E62A4C5C28E784A90F47 /* blake2b.c in Sources */,
+				A5DA64B95209678FE78C1142C38D5D5A /* core.c in Sources */,
+				AD3696F7EF238D2252CF8A825AA932DC /* encoding.c in Sources */,
+				ACDA742934EE3C911C2381053D7E5C03 /* opt.c in Sources */,
+				36211CED70E501E446352B52485657B2 /* thread.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

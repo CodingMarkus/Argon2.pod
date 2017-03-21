@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5D5093826508B368CD9BEE6 /* libPods-Argon2 Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */; };
+		BCCD44A5BB50CF03CA96999D /* libPods-Argon2 Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8943FD1E4BC2C10BD905D9D /* libPods-Argon2 Tests.a */; };
 		D4153DA71E7BE97400B4DF8B /* TestArgon2.m in Sources */ = {isa = PBXBuildFile; fileRef = D4153DA61E7BE97400B4DF8B /* TestArgon2.m */; };
 		D48EC4561E7ADF430034507C /* Argon2 Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EC44C1E7ADF430034507C /* Argon2 Library.framework */; };
 /* End PBXBuildFile section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		311D1466720E0AC9ABEDC22B /* Pods-Argon2 Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Argon2 Tests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Argon2 Tests/Pods-Argon2 Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Argon2 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AF4B1BDA476F597861AC5A /* Pods-Argon2 Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Argon2 Tests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Argon2 Tests/Pods-Argon2 Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8943FD1E4BC2C10BD905D9D /* libPods-Argon2 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Argon2 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4153DA61E7BE97400B4DF8B /* TestArgon2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestArgon2.m; path = "Argon2 Tests/TestArgon2.m"; sourceTree = SOURCE_ROOT; };
 		D48EC44C1E7ADF430034507C /* Argon2 Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Argon2 Library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EC4501E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48EC4561E7ADF430034507C /* Argon2 Library.framework in Frameworks */,
-				B5D5093826508B368CD9BEE6 /* libPods-Argon2 Tests.a in Frameworks */,
+				BCCD44A5BB50CF03CA96999D /* libPods-Argon2 Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +65,7 @@
 		A171C2E667E24A28B2FC9D06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5241DBF7C14A1EB0EB5E0BAF /* libPods-Argon2 Tests.a */,
+				B8943FD1E4BC2C10BD905D9D /* libPods-Argon2 Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,15 +346,18 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -378,7 +381,9 @@
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -408,15 +413,18 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -434,7 +442,9 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;

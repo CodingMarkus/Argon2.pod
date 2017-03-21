@@ -1,7 +1,6 @@
 //
 //  Created by Markus Hanauska on 2017-03-16.
 //
-//
 
 #import "Argon2KeyDerivator.h"
 
@@ -58,17 +57,19 @@ void processRangeTests (
 
 @implementation Argon2KeyDerivator
 
-+ (NSData *_Nullable)makeKeyOfLength:(uint32_t)desiredOutputLength
++ (NSData *_Nullable)makeKeyOfLength:(uint32_t)length
 	usingType:(Argon2Type)type rounds:(uint32_t)rounds
 	memory:(uint32_t)memoryInKiB threads:(uint32_t)threadCount
 	password:(NSData *_Nullable)password salt:(NSData *_Nonnull)salt
+	secretKey:(NSData *_Nullable)secretKey
+	additionalData:(NSData *_Nullable)additionalData
 	outError:(NSError *_Nullable *_Nullable)outError
 {
 	verifyNotNil(salt, "salt");
 
 	struct RangeTest tests[ ] = {
-		{ desiredOutputLength, ARGON2_MIN_OUTLEN, ARGON2_MAX_OUTLEN,
-			"desiredOutputLength"
+		{ length, ARGON2_MIN_OUTLEN, ARGON2_MAX_OUTLEN,
+			"length"
 		},
 		{ rounds, ARGON2_MIN_TIME, ARGON2_MAX_TIME,
 			"rounds"
@@ -84,13 +85,17 @@ void processRangeTests (
 		},
 		{ salt.length, ARGON2_MIN_SALT_LENGTH, ARGON2_MAX_SALT_LENGTH,
 			"salt"
+		},
+		{ secretKey.length, ARGON2_MIN_SECRET, ARGON2_MAX_SECRET,
+			"secretKey"
+		},
+		{ additionalData.length, ARGON2_MIN_AD_LENGTH, ARGON2_MAX_AD_LENGTH,
+			"additionalData"
 		}
 	};
 	processRangeTests(tests, SIZE_OF_ARRAY(tests));
 
-	NSMutableData * result = [[NSMutableData alloc]
-		initWithLength:desiredOutputLength
-	];
+	NSMutableData * result = [[NSMutableData alloc] initWithLength:length];
 	if (!result) {
 		if (outError) {
 			*outError = [NSError errorWithDomain:Argon2ErrorDomain
@@ -107,12 +112,31 @@ void processRangeTests (
 		case Argon2id: atype = Argon2_id; break;
 	}
 
-	int errCode = argon2_hash(
-		rounds, memoryInKiB, threadCount,
-		password.bytes, password.length, salt.bytes, salt.length,
-		result.mutableBytes, desiredOutputLength, NULL, 0,
-		atype, ARGON2_VERSION_13
-	);
+	argon2_context context = {
+		.out = result.mutableBytes,
+		.outlen = length,
+
+		.pwd = (uint8_t *)password.bytes,
+		.pwdlen = (uint32_t)password.length,
+
+		.salt = (uint8_t *)salt.bytes,
+		.saltlen = (uint32_t)salt.length,
+
+		.secret = (uint8_t *)secretKey.bytes,
+		.secretlen = (uint32_t)secretKey.length,
+
+		.ad = (uint8_t *)additionalData.bytes,
+		.adlen = (uint32_t)additionalData.length,
+
+		.t_cost = rounds,
+		.m_cost = memoryInKiB,
+		.lanes = threadCount,
+		.threads = threadCount,
+
+		.version = ARGON2_VERSION_13
+	};
+
+	int errCode = argon2_ctx(&context, atype);
 
 	NSError * error = nil;
 	switch (errCode) {
@@ -139,6 +163,23 @@ void processRangeTests (
 	return result;
 }
 
+
++ (NSData *_Nullable)makeKeyOfLength:(uint32_t)length
+	usingType:(Argon2Type)type rounds:(uint32_t)rounds
+	memory:(uint32_t)memoryInKiB threads:(uint32_t)threadCount
+	password:(NSData *_Nullable)password salt:(NSData *_Nonnull)salt
+	outError:(NSError *_Nullable *_Nullable)outError
+{
+	return [self makeKeyOfLength:length usingType:type
+		rounds:rounds memory:memoryInKiB threads:threadCount
+		password:password salt:salt secretKey:nil additionalData:nil
+		outError:outError
+	];
+}
+
+
 @end
+
+// MARK: Error Domain
 
 NSString *_Nonnull const Argon2ErrorDomain = @"Argon2ErrorDomain";

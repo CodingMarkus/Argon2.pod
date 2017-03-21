@@ -2,22 +2,6 @@
 //  Created by Markus Hanauska on 2017-03-16.
 //
 
-/*
-Runs Argon2 with certain inputs and parameters, inputs not cleared. Prints the
-Base64-encoded hash string
-@out output array with at least 32 bytes allocated
-@pwd NULL-terminated string, presumably from argv[]
-@salt salt array
-@t_cost number of iterations
-@m_cost amount of requested memory in KB
-@lanes amount of requested parallelism
-@threads actual parallelism
-@type Argon2 type we want to run
-@encoded_only display only the encoded hash
-@raw_only display only the hexadecimal of the hash
-@version Argon2 version
-*/
-
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(int, Argon2Type) {
@@ -43,33 +27,76 @@ typedef NS_ENUM(int, Argon2Type) {
 
 @interface Argon2KeyDerivator : NSObject
 
-	/// Make a key using Argon2
+	/// Make a key using Argon2.
 	///
-	/// @param desiredOutputLength Desired length of returned \c NSData object.
-	///        Allowed range: [4, 2^32]
+	/// @param length Desired output length of returned @c NSData object.
+	///        Allowed range: @c [4, @c 2^32]
 	/// @param type The algorithm to use, see types above.
 	/// @param rounds The number of rounds to use. More rounds use more CPU
 	///        time and thus makes the key harder to compute.
-	///        Allowed range: [1, 2^32]
-	/// @param memory The amount of memory in KibiBytes to use. More memory
-	///        makes it harder to attach the key for brute force number
+	///        Allowed range: @c [1, @c 2^32]
+	/// @param memoryInKiB The amount of memory in KibiBytes to use. More
+	///        memory makes it harder to attach the key for brute force number
 	///        cruncher that usually have a lot of computation power but rather
-	///        little memory.
-	///        Allowed range: [8, 2^32] (equals 8 kiB to 4 TiB)
-	///        <b>But never more than half of the process address space!</b>
-	/// @param threads The number of lanes and threads to use for computation.
-	///        More threads makes it harder for simple hardware devices to
-	///        break the key as these devices usually have no threading and
-	///        and emulating threading costs a lot more computation power.
-	///        Allowed range: [1, 2^32]
-	/// @param password The actual password. \c nil is the same as feeding data
-	///        of length zero.
-	/// @param salt The salt. Allowed range: [8, 2^32]
-	/// @param outError Unless \c nil, errors are written to \c outError
+	///        little memory. Allowed range: @c [8, @C 2^32]
+	///        (equals 8 kiB to 4 TiB)
+	///        @b But @b never @b more @b than @b half @b of @b the @b process
+	///        @b address @b space!
+	/// @param threadCount The number of lanes and threads to use for
+	///        computation. More threads makes it harder for simple hardware
+	///        devices to break the key as these devices usually have no
+	///        threading and and emulating threading costs a lot more
+	///        computation power. Allowed range: @c [1, @c 2^32]
+	/// @param password The actual password. @c nil is the same as feeding data
+	///        of length zero. Allowed length range: @c [0, @c 2^32]
+	/// @param salt The salt. Allowed size range: @c [8, @c 2^32]
+	/// @param secretKey @e Optional. An additional secret key, e.g. from a
+	///        a different source or from a server. Makes it even harder for an
+	///        attacker who now also requires access to that key. Set to @c nil
+	///        for "no key". Allowed length range: @c [0, @c 2^32]
+	/// @param additionalData @e Optional. Additional data to be hashed. Set to
+	///        @c nil for "no additional data".
+	///        Allowed length range: @c [0, @c 2^32]
+	/// @param outError Unless @c nil, errors are written to @c outError.
 	///
-	/// @return The Argon2 digest of length \c desiredOutputLegnth, \c nil in
+	/// @return The Argon2 digest of length @c desiredOutputLegnth, @c nil in
 	///         case of an error.
-	+ (NSData *_Nullable)makeKeyOfLength:(uint32_t)desiredOutputLength
+	+ (NSData *_Nullable)makeKeyOfLength:(uint32_t)length
+		usingType:(Argon2Type)type rounds:(uint32_t)rounds
+		memory:(uint32_t)memoryInKiB threads:(uint32_t)threadCount
+		password:(NSData *_Nullable)password salt:(NSData *_Nonnull)salt
+		secretKey:(NSData *_Nullable)secretKey
+		additionalData:(NSData *_Nullable)additionalData
+		outError:(NSError *_Nullable *_Nullable)outError;
+
+	/// Make a key using Argon2.
+	///
+	/// @param length Desired output length of returned @c NSData object.
+	///        Allowed range: @c [4, @c 2^32]
+	/// @param type The algorithm to use, see types above.
+	/// @param rounds The number of rounds to use. More rounds use more CPU
+	///        time and thus makes the key harder to compute.
+	///        Allowed range: @c [1, @c 2^32]
+	/// @param memoryInKiB The amount of memory in KibiBytes to use. More
+	///        memory makes it harder to attach the key for brute force number
+	///        cruncher that usually have a lot of computation power but rather
+	///        little memory. Allowed range: @c [8, @C 2^32]
+	///        (equals 8 kiB to 4 TiB)
+	///        @b But @b never @b more @b than @b half @b of @b the @b process
+	///        @b address @b space!
+	/// @param threadCount The number of lanes and threads to use for
+	///        computation. More threads makes it harder for simple hardware
+	///        devices to break the key as these devices usually have no
+	///        threading and and emulating threading costs a lot more
+	///        computation power. Allowed range: @c [1, @c 2^32]
+	/// @param password The actual password. @c nil is the same as feeding data
+	///        of length zero. Allowed length range: @c [0, @c 2^32]
+	/// @param salt The salt. Allowed size range: @c [8, @c 2^32]
+	/// @param outError Unless @c nil, errors are written to @c outError.
+	///
+	/// @return The Argon2 digest of length @c desiredOutputLegnth, @c nil in
+	///         case of an error.
+	+ (NSData *_Nullable)makeKeyOfLength:(uint32_t)length
 		usingType:(Argon2Type)type rounds:(uint32_t)rounds
 		memory:(uint32_t)memoryInKiB threads:(uint32_t)threadCount
 		password:(NSData *_Nullable)password salt:(NSData *_Nonnull)salt
