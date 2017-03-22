@@ -1,3 +1,9 @@
+##### Version 1.1.1
+###### Improved
+	- Better unit testing
+	- Added a Wikipedia quote to ReadMe
+
+-------------------------------------------------------------------------------
 
 ##### Version 1.1.0
 ###### New
