@@ -1,6 +1,6 @@
 {
   "name": "Argon2",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "license": {
     "type": "Apache License, Version 2.0",
     "file": "License.txt"
@@ -12,7 +12,7 @@
   "summary": "The Argon2 key derivation function as a CocaPod.",
   "source": {
     "git": "https://github.com/CodingMarkus/Argon2.pod.git",
-    "tag": "1.1.0",
+    "tag": "1.1.2",
     "submodules": true
   },
   "source_files": [
