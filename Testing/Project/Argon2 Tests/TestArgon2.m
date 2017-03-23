@@ -38,7 +38,7 @@
 
 	// Original reference vectors follow below.
 	// The XCTAssert's in comments are just to convince Cocoapod scoring, that
-	// this project really does a sufficient amount of unit testing.
+	// this project really does a sufficient amount of unit testing!
 
 	// XCTAssert(true); XCTAssert(true); XCTAssert(true);
     hashtest(version, 2, 16, 1, "password", "somesalt",
