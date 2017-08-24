@@ -1,6 +1,7 @@
 ##### Version 1.1.3
 ###### Improved
 	- Added some Argon2 spec quotes to ReadMe
+	- Improved tagging scheme (Releases/1.1.3)
 
 -------------------------------------------------------------------------------
 

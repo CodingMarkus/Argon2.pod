@@ -3,14 +3,14 @@ Pod::Spec.new do |spec|
 	## General infos
 	#####
  	spec.name     = 'Argon2'
- 	spec.version  = '1.1.2'
- 	spec.license  = { :type => 'Apache License, Version 2.0',
+ 	spec.version  = '1.1.3'
+ 	spec.license  = { :type => 'Apache License 2.0',
 	                  :file => 'License.txt' }
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
 	spec.authors  = { 'Markus Hanauska' => 'CodingMarkus@hanauska.name' }
 	spec.summary  = 'The Argon2 key derivation function as a CocoaPod.'
 	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod.git',
-		          :tag => spec.version, :submodules => true }
+	                  :tag => "Releases/#{spec.version}", :submodules => true }
 
 	##########################################################################
 	## What to build
