@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 	                  :file => 'License.txt' }
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
 	spec.authors  = { 'Markus Hanauska' => 'CodingMarkus@hanauska.name' }
-	spec.summary  = 'The Argon2 key derivation function as a CocaPod.'
+	spec.summary  = 'The Argon2 key derivation function as a CocoaPod.'
 	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod.git',
 		          :tag => spec.version, :submodules => true }
 
