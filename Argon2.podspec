@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 	spec.authors  = { 'Markus Hanauska' => 'CodingMarkus@hanauska.name' }
 	spec.summary  = 'The Argon2 key derivation function as a CocaPod.'
 	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod.git',
-		              :tag => spec.version, :submodules => true }
+		          :tag => spec.version, :submodules => true }
 
 	##########################################################################
 	## What to build
