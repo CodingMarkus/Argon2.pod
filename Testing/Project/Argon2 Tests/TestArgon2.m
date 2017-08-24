@@ -85,6 +85,17 @@
              "b0357cccfbef91f3860b0dba447b2348cbefecadaf990abfe9cc40726c521271",
              "$argon2i$v=19$m=65536,t=2,p=1$ZGlmZnNhbHQ"
              "$sDV8zPvvkfOGCw26RHsjSMvv7K2vmQq/6cxAcmxSEnE");
+
+//	double t1 = CFAbsoluteTimeGetCurrent();
+//	NSError * error = nil;
+//	NSData * rawPwd = [NSData dataWithBytes:"password" length:strlen("password")];
+//	NSData * rawSalt = [NSData dataWithBytes:"saltsalt" length:strlen("saltsalt")];
+//	NSData * result = [Argon2KeyDerivator makeKeyOfLength:OUT_LEN
+//		usingType:Argon2d rounds:16 memory:4096 threads:1
+//		password:rawPwd salt:rawSalt outError:&error
+//	];
+//	double t2 = CFAbsoluteTimeGetCurrent();
+//	NSLog(@"*** Time: %@", @(t2 - t1));
 }
 
 @end

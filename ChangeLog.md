@@ -1,3 +1,9 @@
+##### Version 1.1.3
+###### Improved
+	- Added some Argon2 spec quotes to ReadMe
+
+-------------------------------------------------------------------------------
+
 ##### Version 1.1.2
 ###### Fixed
 	- Switching subrepo to own fork of Argon2 code to get rid of the
