@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 	## General infos
 	#####
  	spec.name     = 'Argon2'
- 	spec.version  = '1.1.3'
+ 	spec.version  = '1.2'
  	spec.license  = { :type => 'Apache License 2.0',
 	                  :file => 'License.txt' }
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
@@ -18,14 +18,19 @@ Pod::Spec.new do |spec|
 	submodulePath = 'Pod/Submodules'
 	argon2Path    = "#{submodulePath}/phc-winner-argon2.git"
 
-	spec.source_files        = 'Pod/Source/*.{h,m}', 'Pod/Include/*.h',
-	                           "#{argon2Path}/include/argon2.h",
-	                           "#{argon2Path}/src/argon2.c",
-	                           "#{argon2Path}/src/opt.c",
-	                           "#{argon2Path}/src/core.{c,h}",
-	                           "#{argon2Path}/src/thread.{c,h}",
-	                           "#{argon2Path}/src/encoding.{c,h}",
-	                           "#{argon2Path}/src/blake2/*.{c,h}"
+	spec.source_files         = 'Pod/Source/*.{h,m}', 'Pod/Include/*.h',
+								"#{argon2Path}/include/argon2.h",
+	                            "#{argon2Path}/src/argon2.c",
+	                            "#{argon2Path}/src/core.{c,h}",
+	                            "#{argon2Path}/src/thread.{c,h}",
+	                            "#{argon2Path}/src/encoding.{c,h}",
+	                            "#{argon2Path}/src/blake2/*.{c,h}"
+
+	spec.source_files.osx     = "#{argon2Path}/src/opt.c"
+	spec.source_files.osx     = "#{argon2Path}/src/ref.c"
+	spec.source_files.tvos    = "#{argon2Path}/src/ref.c"
+	spec.source_files.watchos = "#{argon2Path}/src/ref.c"
+
 	spec.public_header_files = 'Pod/Include/*.h'
 
 	##########################################################################
