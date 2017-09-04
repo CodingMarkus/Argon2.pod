@@ -1,7 +1,15 @@
+
+##### Version 1.2
+###### Improved
+	- Updated to latest Argon2 trunk code.
+###### Fixed
+	- Compilation for iOS/tvOS/watchOS.
+
+-------------------------------------------------------------------------------
+
 ##### Version 1.1.3
 ###### Improved
 	- Added some Argon2 spec quotes to ReadMe
-	- Improved tagging scheme (Releases/1.1.3)
 
 -------------------------------------------------------------------------------
 
