@@ -26,10 +26,10 @@ Pod::Spec.new do |spec|
 	                            "#{argon2Path}/src/encoding.{c,h}",
 	                            "#{argon2Path}/src/blake2/*.{c,h}"
 
-	spec.source_files.osx     = "#{argon2Path}/src/opt.c"
-	spec.source_files.osx     = "#{argon2Path}/src/ref.c"
-	spec.source_files.tvos    = "#{argon2Path}/src/ref.c"
-	spec.source_files.watchos = "#{argon2Path}/src/ref.c"
+	spec.osx.source_files     = "#{argon2Path}/src/opt.c"
+	spec.ios.source_files     = "#{argon2Path}/src/ref.c"
+	spec.tvos.source_files    = "#{argon2Path}/src/ref.c"
+	spec.watchos.source_files = "#{argon2Path}/src/ref.c"
 
 	spec.public_header_files = 'Pod/Include/*.h'
 
