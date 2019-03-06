@@ -1,18 +1,18 @@
 {
   "name": "Argon2",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "license": {
-    "type": "Apache License, Version 2.0",
+    "type": "Apache License 2.0",
     "file": "License.txt"
   },
   "homepage": "https://github.com/CodingMarkus/Argon2.pod",
   "authors": {
-    "Markus Hanauska": "CodingMarkus@hanauska.name"
+    "CodingMarkus": "26418089+CodingMarkus@users.noreply.github.com"
   },
-  "summary": "The Argon2 key derivation function as a CocaPod.",
+  "summary": "The Argon2 key derivation function as a CocoaPod.",
   "source": {
     "git": "https://github.com/CodingMarkus/Argon2.pod.git",
-    "tag": "1.1.2",
+    "tag": "Releases/1.2.1",
     "submodules": true
   },
   "source_files": [
@@ -20,12 +20,23 @@
     "Pod/Include/*.h",
     "Pod/Submodules/phc-winner-argon2.git/include/argon2.h",
     "Pod/Submodules/phc-winner-argon2.git/src/argon2.c",
-    "Pod/Submodules/phc-winner-argon2.git/src/opt.c",
     "Pod/Submodules/phc-winner-argon2.git/src/core.{c,h}",
     "Pod/Submodules/phc-winner-argon2.git/src/thread.{c,h}",
     "Pod/Submodules/phc-winner-argon2.git/src/encoding.{c,h}",
     "Pod/Submodules/phc-winner-argon2.git/src/blake2/*.{c,h}"
   ],
+  "osx": {
+    "source_files": "Pod/Submodules/phc-winner-argon2.git/src/opt.c"
+  },
+  "ios": {
+    "source_files": "Pod/Submodules/phc-winner-argon2.git/src/ref.c"
+  },
+  "tvos": {
+    "source_files": "Pod/Submodules/phc-winner-argon2.git/src/ref.c"
+  },
+  "watchos": {
+    "source_files": "Pod/Submodules/phc-winner-argon2.git/src/ref.c"
+  },
   "public_header_files": "Pod/Include/*.h",
   "requires_arc": true,
   "compiler_flags": "-O3",

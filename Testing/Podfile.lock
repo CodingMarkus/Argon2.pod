@@ -1,5 +1,5 @@
 PODS:
-  - Argon2 (1.1.2)
+  - Argon2 (1.2.1)
 
 DEPENDENCIES:
   - Argon2 (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Argon2: 4d3b34ff5c647616cc73a0d014e883232b110c08
+  Argon2: ef0b2f27006c8c57addf54d8f946bd36f9b469fc
 
 PODFILE CHECKSUM: b9fa15bb9ceca615058d8073d6f74c1b652e15fb
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.7.0.beta.1
