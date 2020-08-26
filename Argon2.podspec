@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 	argon2Path    = "#{submodulePath}/phc-winner-argon2.git"
 
 	spec.source_files         = 'Pod/Source/*.{h,m}', 'Pod/Include/*.h',
-								"#{argon2Path}/include/argon2.h",
+															"#{argon2Path}/include/argon2.h",
 	                            "#{argon2Path}/src/argon2.c",
 	                            "#{argon2Path}/src/core.{c,h}",
 	                            "#{argon2Path}/src/thread.{c,h}",
@@ -35,6 +35,9 @@ Pod::Spec.new do |spec|
 	spec.watchos.source_files = "#{argon2Path}/src/ref.c"
 
 	spec.public_header_files = 'Pod/Include/*.h'
+
+	spec.osx.preserve_path    = "#{argon2Path}/src/ref.c",
+	                            "#{argon2Path}/src/opt.c"
 
 	##########################################################################
 	## How to build
