@@ -30,7 +30,7 @@
 		D48EC44C1E7ADF430034507C /* Argon2 Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Argon2 Library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48EC4501E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48EC4551E7ADF430034507C /* Argon2 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argon2 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D48EC45C1E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Argon2 Tests/Info.plist"; sourceTree = "<group>"; };
+		D48EC45C1E7ADF430034507C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,7 @@
 				D48EC45C1E7ADF430034507C /* Info.plist */,
 				D4153DA61E7BE97400B4DF8B /* TestArgon2.m */,
 			);
-			name = "Argon2 Tests";
-			path = "Argon2 LibraryTests";
+			path = "Argon2 Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +180,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D48EC43C1E7ADDAB0034507C;

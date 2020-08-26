@@ -1,5 +1,5 @@
 //
-//  Created by Markus Hanauska on 2017-03-16.
+//  Created by CodingMarkus on 2017-03-16.
 //
 
 #import "Argon2KeyDerivator.h"

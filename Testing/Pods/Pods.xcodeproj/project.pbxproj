@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09395587E92E3B77B4C5F9D4580E410B /* Argon2KeyDerivator.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B997392884D1DEECD64BF2FE766BE /* Argon2KeyDerivator.m */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		0DDB2331E2D46F11C630AB3A43879357 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DDEAAF83F3055B8FB473A1D44D994F /* blake2-impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1AD7E352AFC3B1D1A8AD71A51E840B53 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = A60DB7346D1F517F9EDB61AC8306A907 /* thread.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		1E92707E17C541AD65AAAA9B38F1E6E3 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 71ECE8E181CD97FBB49916524B5C7F92 /* blake2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24F521E0930A7711F1B03AEC00D43970 /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7839CCC21FD71127D772D047521C6E83 /* blamka-round-opt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		31C6216E5C75DA0F32B8D655D6000BDC /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = CA441F3136561BF0422321A36EE339EA /* blamka-round-ref.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45A8B25C9CD27FF1A821DC62E8ED2150 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 8250271CFEBD3B84258206963F5352F1 /* core.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C3315C6BA67748DE94D58C941B82B36 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = AB66D7FB95BDD48615696127DCB8CF1A /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63CEC1ABAAD10209B6B1A9383938F469 /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EFADF30BA2A167541C6E85F428F858C /* opt.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		68E5613C06DDD2797F6908CF08161DA2 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC4D384B6D0DA481C0FADE4D4181BA3 /* argon2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6CBCF38398EFFCD32B573813DC3BCA12 /* Argon2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FC0724B8A706FF35166DA1C933365E /* Argon2-dummy.m */; };
-		7318EF2A3B55C177EF763AEC625CABED /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C35E01DC07C5510CE5105253EFB5015 /* encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6D7E9C129FC612ADE5B78AB930B0D0F /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C07D5CB03E70C5EAE4B9DD75989436F /* encoding.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		AE3A9322B16F9C08657E6E04C6475A8B /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB5255BE0E08E35A3848D54F131BB1 /* core.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		AF5F8BBFD8C738D43D4136FD67DC0BC1 /* Argon2KeyDerivator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB061968549CD5FF9DDC8FAE62D29BC5 /* Argon2KeyDerivator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9ED0FD3959D4148F17A9F1E5006B7A0 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = FF6A6FD2A6BE176266BA5C34FCF8E0C4 /* argon2.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		C21855222F5E7C38AF5D38D311F1792C /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BC7FB5934A1233E48430FA551FD2F /* blake2b.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
-		F851B42CAD1B14F62B8D18FDC7F2D409 /* Pods-Argon2 Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D785B10A29DD7E0FB1CF8E1151AC5 /* Pods-Argon2 Tests-dummy.m */; };
+		018D5EDE32E625C9DB4FD7194F1D09BB /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 91115FE61850B66DD6996B85B7BB3629 /* blake2b.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		05C7A43407AA4F03EF040119EE29CDC6 /* Argon2KeyDerivator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D12564ED85341344D5A5A7DA71B145 /* Argon2KeyDerivator.m */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		0824695C69848C2C7C9A368A5FBA33FA /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 593C797B3D12C8FA3001CA1F830DB7D8 /* core.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		087A7A3E5557B7BE9E47C0D3E4A7E4B9 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = AC6C100A1D8163600447ADC4DF18D0C1 /* argon2.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		1072CB9280D740AFE97821B54C0A5C2B /* Argon2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DE62B9CCC9ED909410AFC1B2397F4 /* Argon2-dummy.m */; };
+		18741F950CDCFE0D9CE46F8289980CE7 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 76606CBCD683330B3B9F4066F1DB8FBD /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2538F7F2CB6AAEFED6AB0C20B9749C1B /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C81766EE23A30643FFD0025F97512AA /* thread.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		35CD1DFD059B106E6492180C599997ED /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = E18584B7AFBBAD98C5E3E87A0E86015B /* encoding.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		53B5827E3BB42B1CA1449F5A1D02C9D4 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C21FFE85ECB47B3862DAA4A94CAD5D5D /* encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66F703890BF3937A31CCD902707E54C6 /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 880C2012547D5C8C4F697C96DEF9C962 /* blamka-round-ref.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74F3E6DFFA3D4D5E4FB0C19D45E1D4DF /* opt_or_ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C613B38CE584372424D6DB356C3BC7B /* opt_or_ref.c */; settings = {COMPILER_FLAGS = "-O3 -DOS_OBJECT_USE_OBJC=0"; }; };
+		763F2C6396F2B095C44A05DC455B13E2 /* Argon2KeyDerivator.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AA4360782D3587F01FB16A5F15EDBB /* Argon2KeyDerivator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3B0EE4F384349A63191D08B8A8DF794 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D225E0C6698F19FA1430D1CF6BE8002 /* blake2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A72032196992474F148216813261AE21 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 6395543C38364F7722918A6AEA852A80 /* core.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAA1EC0996C070CE9B591D8B92E14687 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = E60A9FBD4F8E11F869E7CBE3EEC05193 /* argon2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D516DD9629EC71DC3DFBDC7585557E26 /* Pods-Argon2 Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D785B10A29DD7E0FB1CF8E1151AC5 /* Pods-Argon2 Tests-dummy.m */; };
+		EA8350377B390276C77D18363475F638 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5FC36F817C883222B40F3E7AB1EB5B /* blake2-impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F448B218C16228326A633D6649E3239B /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = A12751A0F739EB63F6C9605A47C84FA5 /* blamka-round-opt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2A8DA5ED186244FBB3615E25177CC67E /* PBXContainerItemProxy */ = {
+		E27867A173DBC98D38D6AC8734FEA0E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,47 +38,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16717F8C9A0C40808895E8CEBC1BD131 /* ReadMe.md */ = {isa = PBXFileReference; includeInIndex = 1; path = ReadMe.md; sourceTree = "<group>"; };
-		1EEB5255BE0E08E35A3848D54F131BB1 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; path = core.c; sourceTree = "<group>"; };
-		224B997392884D1DEECD64BF2FE766BE /* Argon2KeyDerivator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Argon2KeyDerivator.m; sourceTree = "<group>"; };
-		2C07D5CB03E70C5EAE4B9DD75989436F /* encoding.c */ = {isa = PBXFileReference; includeInIndex = 1; path = encoding.c; sourceTree = "<group>"; };
-		2C77AD2BDCFC2533AC1BEC8379B9C285 /* libArgon2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libArgon2.a; path = libArgon2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		283DE62B9CCC9ED909410AFC1B2397F4 /* Argon2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Argon2-dummy.m"; sourceTree = "<group>"; };
+		2EEC8A03287B224B39B5AFE773EE230D /* libPods-Argon2 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Argon2 Tests.a"; path = "libPods-Argon2 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD94D869713090794C241B9D45C4F4F /* Argon2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Argon2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C613B38CE584372424D6DB356C3BC7B /* opt_or_ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opt_or_ref.c; sourceTree = "<group>"; };
 		414F0E4D45221965506EE2C6F162AF3C /* Pods-Argon2 Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Argon2 Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45C485197200D48227586C35C4E0C972 /* Argon2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Argon2.debug.xcconfig; sourceTree = "<group>"; };
 		5161D2E343F8C327584769CF40EE54F3 /* Pods-Argon2 Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Argon2 Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		56459FFEFB3FCDD0C570A8229CA9BB28 /* libPods-Argon2 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Argon2 Tests.a"; path = "libPods-Argon2 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D12564ED85341344D5A5A7DA71B145 /* Argon2KeyDerivator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Argon2KeyDerivator.m; sourceTree = "<group>"; };
+		593C797B3D12C8FA3001CA1F830DB7D8 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; path = core.c; sourceTree = "<group>"; };
 		5B7EBF143022C2D9A409B290C4DB068F /* Pods-Argon2 Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argon2 Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C35E01DC07C5510CE5105253EFB5015 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
-		6EFADF30BA2A167541C6E85F428F858C /* opt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opt.c; sourceTree = "<group>"; };
-		71ECE8E181CD97FBB49916524B5C7F92 /* blake2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
-		7839CCC21FD71127D772D047521C6E83 /* blamka-round-opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
-		7AC4D384B6D0DA481C0FADE4D4181BA3 /* argon2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
-		8250271CFEBD3B84258206963F5352F1 /* core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
-		9D5BC7FB5934A1233E48430FA551FD2F /* blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; path = blake2b.c; sourceTree = "<group>"; };
+		6395543C38364F7722918A6AEA852A80 /* core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		76606CBCD683330B3B9F4066F1DB8FBD /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		7C81766EE23A30643FFD0025F97512AA /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; path = thread.c; sourceTree = "<group>"; };
+		880C2012547D5C8C4F697C96DEF9C962 /* blamka-round-ref.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
+		8D225E0C6698F19FA1430D1CF6BE8002 /* blake2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
+		91115FE61850B66DD6996B85B7BB3629 /* blake2b.c */ = {isa = PBXFileReference; includeInIndex = 1; path = blake2b.c; sourceTree = "<group>"; };
+		912D6192023E99018F3B9E7F6201E22D /* libArgon2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libArgon2.a; path = libArgon2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03E23BCBBCE29517205C107285590C0 /* Pods-Argon2 Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Argon2 Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4DDEAAF83F3055B8FB473A1D44D994F /* blake2-impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
-		A60DB7346D1F517F9EDB61AC8306A907 /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; path = thread.c; sourceTree = "<group>"; };
-		A8FB14597E7A7B79FDD1AFC36A0B7440 /* Argon2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Argon2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB66D7FB95BDD48615696127DCB8CF1A /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
-		C0D82C76B936C577960CB41B346E455F /* Argon2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Argon2-prefix.pch"; sourceTree = "<group>"; };
-		CA441F3136561BF0422321A36EE339EA /* blamka-round-ref.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
-		CB061968549CD5FF9DDC8FAE62D29BC5 /* Argon2KeyDerivator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Argon2KeyDerivator.h; sourceTree = "<group>"; };
-		CC7F4175D4691403DE1CEA38C3167E97 /* Argon2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Argon2.xcconfig; sourceTree = "<group>"; };
-		E4FC0724B8A706FF35166DA1C933365E /* Argon2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Argon2-dummy.m"; sourceTree = "<group>"; };
-		F00EE5F197137C754A42CDF25625F7D9 /* License.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = License.txt; sourceTree = "<group>"; };
+		A12751A0F739EB63F6C9605A47C84FA5 /* blamka-round-opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
+		A8A1B4EDF0F90EBD46DE44C27363C973 /* Argon2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Argon2.release.xcconfig; sourceTree = "<group>"; };
+		AC6C100A1D8163600447ADC4DF18D0C1 /* argon2.c */ = {isa = PBXFileReference; includeInIndex = 1; path = argon2.c; sourceTree = "<group>"; };
+		BE5FC36F817C883222B40F3E7AB1EB5B /* blake2-impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
+		C21FFE85ECB47B3862DAA4A94CAD5D5D /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		C582550BF4792925F447D49083086180 /* License.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = License.txt; sourceTree = "<group>"; };
+		E18584B7AFBBAD98C5E3E87A0E86015B /* encoding.c */ = {isa = PBXFileReference; includeInIndex = 1; path = encoding.c; sourceTree = "<group>"; };
+		E60A9FBD4F8E11F869E7CBE3EEC05193 /* argon2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
+		EE0F9112308F086E92CF2AEC601E2055 /* Argon2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Argon2-prefix.pch"; sourceTree = "<group>"; };
+		F4AA4360782D3587F01FB16A5F15EDBB /* Argon2KeyDerivator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Argon2KeyDerivator.h; sourceTree = "<group>"; };
+		F85F116216EFFAD87D04160C744C331A /* ReadMe.md */ = {isa = PBXFileReference; includeInIndex = 1; path = ReadMe.md; sourceTree = "<group>"; };
 		FC6D785B10A29DD7E0FB1CF8E1151AC5 /* Pods-Argon2 Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Argon2 Tests-dummy.m"; sourceTree = "<group>"; };
-		FF6A6FD2A6BE176266BA5C34FCF8E0C4 /* argon2.c */ = {isa = PBXFileReference; includeInIndex = 1; path = argon2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4172B929ADDA14C8BFA997E42F8AFC34 /* Frameworks */ = {
+		D14EC5351AC482DC701B604CDA1A3422 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF783A4D490E14E577CD4D696CD809D9 /* Frameworks */ = {
+		F35B3819C0D3BBB93CEB5240433FDF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,40 +89,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05910D5DE648B27A27C07FFA6D942513 /* Include */ = {
+		3810F1BE2E2DE6EC51423CFBA870AED5 /* blake2 */ = {
 			isa = PBXGroup;
 			children = (
-				CB061968549CD5FF9DDC8FAE62D29BC5 /* Argon2KeyDerivator.h */,
+				8D225E0C6698F19FA1430D1CF6BE8002 /* blake2.h */,
+				BE5FC36F817C883222B40F3E7AB1EB5B /* blake2-impl.h */,
+				91115FE61850B66DD6996B85B7BB3629 /* blake2b.c */,
+				A12751A0F739EB63F6C9605A47C84FA5 /* blamka-round-opt.h */,
+				880C2012547D5C8C4F697C96DEF9C962 /* blamka-round-ref.h */,
 			);
-			name = Include;
-			path = Pod/Include;
-			sourceTree = "<group>";
-		};
-		0A4A1014A322DE5460DDBF5DFC2DD8CD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A8FB14597E7A7B79FDD1AFC36A0B7440 /* Argon2.podspec */,
-				F00EE5F197137C754A42CDF25625F7D9 /* License.txt */,
-				16717F8C9A0C40808895E8CEBC1BD131 /* ReadMe.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2234F0AE50C455A490F37C6ED72A9782 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				7AC4D384B6D0DA481C0FADE4D4181BA3 /* argon2.h */,
-			);
-			name = include;
-			path = include;
+			name = blake2;
+			path = blake2;
 			sourceTree = "<group>";
 		};
 		3B9B215B47628CE5E74975B2A777F702 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D92F2C2B95299EF0207BCD43F68E3C3 /* Argon2 */,
+				4C4E492B9BCCF9D4757CB7E76281447B /* Argon2 */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C4E492B9BCCF9D4757CB7E76281447B /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4F954F8090FDCC010DE1EA39F485E24 /* Include */,
+				5C998E829462E9865B3502CFCBD94C29 /* Pod */,
+				B4F452EA06E4621895B04DE4F0F9508B /* Source */,
+				C6C40B737508312AFAA692E2940B4567 /* Submodules */,
+				A4BE21892317A988E0475428E8C70244 /* Support Files */,
+			);
+			name = Argon2;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5AF6502F5C07EE347E87F79A37799F77 /* Pods-Argon2 Tests */ = {
@@ -137,73 +136,80 @@
 			path = "Target Support Files/Pods-Argon2 Tests";
 			sourceTree = "<group>";
 		};
-		5C8CF5449CF0E66C3291866D86BF7011 /* src */ = {
+		5C998E829462E9865B3502CFCBD94C29 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FF6A6FD2A6BE176266BA5C34FCF8E0C4 /* argon2.c */,
-				1EEB5255BE0E08E35A3848D54F131BB1 /* core.c */,
-				8250271CFEBD3B84258206963F5352F1 /* core.h */,
-				2C07D5CB03E70C5EAE4B9DD75989436F /* encoding.c */,
-				5C35E01DC07C5510CE5105253EFB5015 /* encoding.h */,
-				6EFADF30BA2A167541C6E85F428F858C /* opt.c */,
-				A60DB7346D1F517F9EDB61AC8306A907 /* thread.c */,
-				AB66D7FB95BDD48615696127DCB8CF1A /* thread.h */,
-				D5591797A7AED10EEF9D231F60F93342 /* blake2 */,
+				3BD94D869713090794C241B9D45C4F4F /* Argon2.podspec */,
+				C582550BF4792925F447D49083086180 /* License.txt */,
+				F85F116216EFFAD87D04160C744C331A /* ReadMe.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F089F4D6BAB31C4803109EDF58F5386 /* phc-winner-argon2.git */ = {
+			isa = PBXGroup;
+			children = (
+				AD688126E9927DB351318D771E8E76EE /* include */,
+				8967104C1FEEB6C6B0CB6C7409E67A42 /* src */,
+			);
+			name = "phc-winner-argon2.git";
+			path = "phc-winner-argon2.git";
+			sourceTree = "<group>";
+		};
+		8967104C1FEEB6C6B0CB6C7409E67A42 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AC6C100A1D8163600447ADC4DF18D0C1 /* argon2.c */,
+				593C797B3D12C8FA3001CA1F830DB7D8 /* core.c */,
+				6395543C38364F7722918A6AEA852A80 /* core.h */,
+				E18584B7AFBBAD98C5E3E87A0E86015B /* encoding.c */,
+				C21FFE85ECB47B3862DAA4A94CAD5D5D /* encoding.h */,
+				7C81766EE23A30643FFD0025F97512AA /* thread.c */,
+				76606CBCD683330B3B9F4066F1DB8FBD /* thread.h */,
+				3810F1BE2E2DE6EC51423CFBA870AED5 /* blake2 */,
 			);
 			name = src;
 			path = src;
 			sourceTree = "<group>";
 		};
-		6D92F2C2B95299EF0207BCD43F68E3C3 /* Argon2 */ = {
+		A4BE21892317A988E0475428E8C70244 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				05910D5DE648B27A27C07FFA6D942513 /* Include */,
-				0A4A1014A322DE5460DDBF5DFC2DD8CD /* Pod */,
-				B9A673C16C060BBE78E5D3C07B906CBE /* Source */,
-				85D8E72EADBE790E1ABF25CBF2F8866D /* Submodules */,
-				A5D7F96CC0AEA8AD937B950DA8317108 /* Support Files */,
-			);
-			name = Argon2;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		85D8E72EADBE790E1ABF25CBF2F8866D /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				C05C555A77916F3D95B91E459286D40A /* phc-winner-argon2.git */,
-			);
-			name = Submodules;
-			path = Pod/Submodules;
-			sourceTree = "<group>";
-		};
-		A5D7F96CC0AEA8AD937B950DA8317108 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC7F4175D4691403DE1CEA38C3167E97 /* Argon2.xcconfig */,
-				E4FC0724B8A706FF35166DA1C933365E /* Argon2-dummy.m */,
-				C0D82C76B936C577960CB41B346E455F /* Argon2-prefix.pch */,
+				283DE62B9CCC9ED909410AFC1B2397F4 /* Argon2-dummy.m */,
+				EE0F9112308F086E92CF2AEC601E2055 /* Argon2-prefix.pch */,
+				45C485197200D48227586C35C4E0C972 /* Argon2.debug.xcconfig */,
+				A8A1B4EDF0F90EBD46DE44C27363C973 /* Argon2.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Testing/Pods/Target Support Files/Argon2";
 			sourceTree = "<group>";
 		};
-		B9A673C16C060BBE78E5D3C07B906CBE /* Source */ = {
+		AD688126E9927DB351318D771E8E76EE /* include */ = {
 			isa = PBXGroup;
 			children = (
-				224B997392884D1DEECD64BF2FE766BE /* Argon2KeyDerivator.m */,
+				E60A9FBD4F8E11F869E7CBE3EEC05193 /* argon2.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		B4F452EA06E4621895B04DE4F0F9508B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				52D12564ED85341344D5A5A7DA71B145 /* Argon2KeyDerivator.m */,
+				3C613B38CE584372424D6DB356C3BC7B /* opt_or_ref.c */,
 			);
 			name = Source;
 			path = Pod/Source;
 			sourceTree = "<group>";
 		};
-		C05C555A77916F3D95B91E459286D40A /* phc-winner-argon2.git */ = {
+		C6C40B737508312AFAA692E2940B4567 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
-				2234F0AE50C455A490F37C6ED72A9782 /* include */,
-				5C8CF5449CF0E66C3291866D86BF7011 /* src */,
+				5F089F4D6BAB31C4803109EDF58F5386 /* phc-winner-argon2.git */,
 			);
-			name = "phc-winner-argon2.git";
-			path = "phc-winner-argon2.git";
+			name = Submodules;
+			path = Pod/Submodules;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -217,19 +223,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D5591797A7AED10EEF9D231F60F93342 /* blake2 */ = {
-			isa = PBXGroup;
-			children = (
-				71ECE8E181CD97FBB49916524B5C7F92 /* blake2.h */,
-				A4DDEAAF83F3055B8FB473A1D44D994F /* blake2-impl.h */,
-				9D5BC7FB5934A1233E48430FA551FD2F /* blake2b.c */,
-				7839CCC21FD71127D772D047521C6E83 /* blamka-round-opt.h */,
-				CA441F3136561BF0422321A36EE339EA /* blamka-round-ref.h */,
-			);
-			name = blake2;
-			path = blake2;
-			sourceTree = "<group>";
-		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,8 +233,8 @@
 		DA6753EC5A1D4A1BA2BD9A5555E54279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C77AD2BDCFC2533AC1BEC8379B9C285 /* libArgon2.a */,
-				56459FFEFB3FCDD0C570A8229CA9BB28 /* libPods-Argon2 Tests.a */,
+				912D6192023E99018F3B9E7F6201E22D /* libArgon2.a */,
+				2EEC8A03287B224B39B5AFE773EE230D /* libPods-Argon2 Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,29 +247,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F4F954F8090FDCC010DE1EA39F485E24 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				F4AA4360782D3587F01FB16A5F15EDBB /* Argon2KeyDerivator.h */,
+			);
+			name = Include;
+			path = Pod/Include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BE083F9A73B04723CA8351BB30F14545 /* Headers */ = {
+		488B9BF05D63DCC898AE8442E7B45D45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E5613C06DDD2797F6908CF08161DA2 /* argon2.h in Headers */,
-				AF5F8BBFD8C738D43D4136FD67DC0BC1 /* Argon2KeyDerivator.h in Headers */,
-				0DDB2331E2D46F11C630AB3A43879357 /* blake2-impl.h in Headers */,
-				1E92707E17C541AD65AAAA9B38F1E6E3 /* blake2.h in Headers */,
-				24F521E0930A7711F1B03AEC00D43970 /* blamka-round-opt.h in Headers */,
-				31C6216E5C75DA0F32B8D655D6000BDC /* blamka-round-ref.h in Headers */,
-				45A8B25C9CD27FF1A821DC62E8ED2150 /* core.h in Headers */,
-				7318EF2A3B55C177EF763AEC625CABED /* encoding.h in Headers */,
-				4C3315C6BA67748DE94D58C941B82B36 /* thread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D198E64453D056C8B1475970FE8FB707 /* Headers */ = {
+		93F6696EC01AC2985AEA6B7E1F5A06A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA1EC0996C070CE9B591D8B92E14687 /* argon2.h in Headers */,
+				763F2C6396F2B095C44A05DC455B13E2 /* Argon2KeyDerivator.h in Headers */,
+				EA8350377B390276C77D18363475F638 /* blake2-impl.h in Headers */,
+				A3B0EE4F384349A63191D08B8A8DF794 /* blake2.h in Headers */,
+				F448B218C16228326A633D6649E3239B /* blamka-round-opt.h in Headers */,
+				66F703890BF3937A31CCD902707E54C6 /* blamka-round-ref.h in Headers */,
+				A72032196992474F148216813261AE21 /* core.h in Headers */,
+				53B5827E3BB42B1CA1449F5A1D02C9D4 /* encoding.h in Headers */,
+				18741F950CDCFE0D9CE46F8289980CE7 /* thread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +287,11 @@
 /* Begin PBXNativeTarget section */
 		46820E393A0506FA865F08663555BFA1 /* Argon2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24D6E357CA0913E5FF58000C03B8B136 /* Build configuration list for PBXNativeTarget "Argon2" */;
+			buildConfigurationList = 9CCB8C769C764B3FC5041255AA11CFFF /* Build configuration list for PBXNativeTarget "Argon2" */;
 			buildPhases = (
-				BE083F9A73B04723CA8351BB30F14545 /* Headers */,
-				567079B907577186854AF249BFD3F2DB /* Sources */,
-				FF783A4D490E14E577CD4D696CD809D9 /* Frameworks */,
+				93F6696EC01AC2985AEA6B7E1F5A06A1 /* Headers */,
+				70054F02E094CA5F9F720320375A7610 /* Sources */,
+				F35B3819C0D3BBB93CEB5240433FDF2D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,25 +299,25 @@
 			);
 			name = Argon2;
 			productName = Argon2;
-			productReference = 2C77AD2BDCFC2533AC1BEC8379B9C285 /* libArgon2.a */;
+			productReference = 912D6192023E99018F3B9E7F6201E22D /* libArgon2.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		EF35F44E16ED5326B339F3E8D71D859E /* Pods-Argon2 Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 275A1AFCA2ECC939F8B248D057000EDA /* Build configuration list for PBXNativeTarget "Pods-Argon2 Tests" */;
+			buildConfigurationList = D74F33EA8B3206B338444DD6DC729FED /* Build configuration list for PBXNativeTarget "Pods-Argon2 Tests" */;
 			buildPhases = (
-				D198E64453D056C8B1475970FE8FB707 /* Headers */,
-				C1C6484AF0A0AAB9119E04EC4EF4D8D7 /* Sources */,
-				4172B929ADDA14C8BFA997E42F8AFC34 /* Frameworks */,
+				488B9BF05D63DCC898AE8442E7B45D45 /* Headers */,
+				CD1A7239BDD85FB60EE79CD176D00516 /* Sources */,
+				D14EC5351AC482DC701B604CDA1A3422 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5805A56C64A935EF4C222B04039C5778 /* PBXTargetDependency */,
+				FD2EF967971D6A7018E765A82FE2E438 /* PBXTargetDependency */,
 			);
 			name = "Pods-Argon2 Tests";
 			productName = "Pods-Argon2 Tests";
-			productReference = 56459FFEFB3FCDD0C570A8229CA9BB28 /* libPods-Argon2 Tests.a */;
+			productReference = 2EEC8A03287B224B39B5AFE773EE230D /* libPods-Argon2 Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -324,15 +326,16 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DA6753EC5A1D4A1BA2BD9A5555E54279 /* Products */;
@@ -346,42 +349,102 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		567079B907577186854AF249BFD3F2DB /* Sources */ = {
+		70054F02E094CA5F9F720320375A7610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBCF38398EFFCD32B573813DC3BCA12 /* Argon2-dummy.m in Sources */,
-				B9ED0FD3959D4148F17A9F1E5006B7A0 /* argon2.c in Sources */,
-				09395587E92E3B77B4C5F9D4580E410B /* Argon2KeyDerivator.m in Sources */,
-				C21855222F5E7C38AF5D38D311F1792C /* blake2b.c in Sources */,
-				AE3A9322B16F9C08657E6E04C6475A8B /* core.c in Sources */,
-				A6D7E9C129FC612ADE5B78AB930B0D0F /* encoding.c in Sources */,
-				63CEC1ABAAD10209B6B1A9383938F469 /* opt.c in Sources */,
-				1AD7E352AFC3B1D1A8AD71A51E840B53 /* thread.c in Sources */,
+				1072CB9280D740AFE97821B54C0A5C2B /* Argon2-dummy.m in Sources */,
+				087A7A3E5557B7BE9E47C0D3E4A7E4B9 /* argon2.c in Sources */,
+				05C7A43407AA4F03EF040119EE29CDC6 /* Argon2KeyDerivator.m in Sources */,
+				018D5EDE32E625C9DB4FD7194F1D09BB /* blake2b.c in Sources */,
+				0824695C69848C2C7C9A368A5FBA33FA /* core.c in Sources */,
+				35CD1DFD059B106E6492180C599997ED /* encoding.c in Sources */,
+				74F3E6DFFA3D4D5E4FB0C19D45E1D4DF /* opt_or_ref.c in Sources */,
+				2538F7F2CB6AAEFED6AB0C20B9749C1B /* thread.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1C6484AF0A0AAB9119E04EC4EF4D8D7 /* Sources */ = {
+		CD1A7239BDD85FB60EE79CD176D00516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F851B42CAD1B14F62B8D18FDC7F2D409 /* Pods-Argon2 Tests-dummy.m in Sources */,
+				D516DD9629EC71DC3DFBDC7585557E26 /* Pods-Argon2 Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5805A56C64A935EF4C222B04039C5778 /* PBXTargetDependency */ = {
+		FD2EF967971D6A7018E765A82FE2E438 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Argon2;
 			target = 46820E393A0506FA865F08663555BFA1 /* Argon2 */;
-			targetProxy = 2A8DA5ED186244FBB3615E25177CC67E /* PBXContainerItemProxy */;
+			targetProxy = E27867A173DBC98D38D6AC8734FEA0E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18ECBDD15139DA58D483AEEDD55F2671 /* Release */ = {
+		2AE0D8B39827576460938522CAB2F560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6AE70D8B6769627314E8234AFDED282B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EBF143022C2D9A409B290C4DB068F /* Pods-Argon2 Tests.release.xcconfig */;
 			buildSettings = {
@@ -404,30 +467,7 @@
 			};
 			name = Release;
 		};
-		29A3FE5D0309B18AB4F4F77C22E7B908 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A03E23BCBBCE29517205C107285590C0 /* Pods-Argon2 Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58928C8298AE6FC130343A17DB8BF872 /* Debug */ = {
+		816C679D58750316935F7386A438309D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,15 +526,16 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		87F66153088C9C38C9D3891EAC9E04A3 /* Debug */ = {
+		AC34E9D466DBA9CC3585A971812F7B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7F4175D4691403DE1CEA38C3167E97 /* Argon2.xcconfig */;
+			baseConfigurationReference = A03E23BCBBCE29517205C107285590C0 /* Pods-Argon2 Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
@@ -502,83 +543,20 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Argon2/Argon2-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Argon2;
-				PRODUCT_NAME = Argon2;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Debug;
-		};
-		A9D2B3AB682A3B702D2AE321F877BA5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		BF2734AF9032E5C3F67F3D8B48EBB722 /* Release */ = {
+		D4E8D4B0D579B6ED68B06CEBA17C8048 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7F4175D4691403DE1CEA38C3167E97 /* Argon2.xcconfig */;
+			baseConfigurationReference = A8A1B4EDF0F90EBD46DE44C27363C973 /* Argon2.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -600,33 +578,58 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
 			name = Release;
+		};
+		DC70FF6ECA02AA954D8ACA9350DE8827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C485197200D48227586C35C4E0C972 /* Argon2.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Argon2/Argon2-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Argon2;
+				PRODUCT_NAME = Argon2;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24D6E357CA0913E5FF58000C03B8B136 /* Build configuration list for PBXNativeTarget "Argon2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87F66153088C9C38C9D3891EAC9E04A3 /* Debug */,
-				BF2734AF9032E5C3F67F3D8B48EBB722 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		275A1AFCA2ECC939F8B248D057000EDA /* Build configuration list for PBXNativeTarget "Pods-Argon2 Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29A3FE5D0309B18AB4F4F77C22E7B908 /* Debug */,
-				18ECBDD15139DA58D483AEEDD55F2671 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58928C8298AE6FC130343A17DB8BF872 /* Debug */,
-				A9D2B3AB682A3B702D2AE321F877BA5B /* Release */,
+				816C679D58750316935F7386A438309D /* Debug */,
+				2AE0D8B39827576460938522CAB2F560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CCB8C769C764B3FC5041255AA11CFFF /* Build configuration list for PBXNativeTarget "Argon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70FF6ECA02AA954D8ACA9350DE8827 /* Debug */,
+				D4E8D4B0D579B6ED68B06CEBA17C8048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F33EA8B3206B338444DD6DC729FED /* Build configuration list for PBXNativeTarget "Pods-Argon2 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC34E9D466DBA9CC3585A971812F7B0A /* Debug */,
+				6AE70D8B6769627314E8234AFDED282B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

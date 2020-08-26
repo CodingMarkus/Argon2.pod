@@ -3,12 +3,14 @@ Pod::Spec.new do |spec|
 	## General infos
 	#####
  	spec.name     = 'Argon2'
- 	spec.version  = '1.2.1'
+ 	spec.version  = '1.3'
  	spec.license  = { :type => 'Apache License 2.0',
-	                  :file => 'License.txt' }
+					  :file => 'License.txt' }
+
  	spec.homepage = 'https://github.com/CodingMarkus/Argon2.pod'
 	spec.authors  = { 'CodingMarkus' =>
 					  '26418089+CodingMarkus@users.noreply.github.com' }
+
 	spec.summary  = 'The Argon2 key derivation function as a CocoaPod.'
 	spec.source   = { :git => 'https://github.com/CodingMarkus/Argon2.pod.git',
 	                  :tag => "Releases/#{spec.version}", :submodules => true }
@@ -27,7 +29,7 @@ Pod::Spec.new do |spec|
 	                            "#{argon2Path}/src/encoding.{c,h}",
 	                            "#{argon2Path}/src/blake2/*.{c,h}"
 
-	spec.osx.source_files     = "#{argon2Path}/src/opt.c"
+	spec.osx.source_files     = "Pod/Source/opt_or_ref.c"
 	spec.ios.source_files     = "#{argon2Path}/src/ref.c"
 	spec.tvos.source_files    = "#{argon2Path}/src/ref.c"
 	spec.watchos.source_files = "#{argon2Path}/src/ref.c"
