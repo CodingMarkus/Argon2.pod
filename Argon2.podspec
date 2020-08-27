@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 	## General infos
 	#####
  	spec.name     = 'Argon2'
- 	spec.version  = '1.3'
+ 	spec.version  = '1.3.1'
  	spec.license  = { :type => 'Apache License 2.0',
 					  :file => 'License.txt' }
 
