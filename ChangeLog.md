@@ -1,4 +1,24 @@
 
+##### Version 1.3.1
+###### Improved
+	- Updated ChangeLog
+
+-------------------------------------------------------------------------------
+
+##### Version 1.3
+###### Improved
+	- Updated to latest Argon2 trunk code.
+###### Fixed
+	- Compilation for ARM Macs
+
+-------------------------------------------------------------------------------
+
+##### Version 1.2.1
+###### Improved
+	- Build settings
+
+-------------------------------------------------------------------------------
+
 ##### Version 1.2
 ###### Improved
 	- Updated to latest Argon2 trunk code.
